@@ -12,7 +12,7 @@ module ring(){
 }
 
 module pin(){
-	w = 5;
+	w = 4;
 	h = 50;
 	translate([0,0,h/2]){
 		cube([w,w,h],center=true);
